@@ -1,8 +1,6 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "simple_crud";
+
+include '.env';
 
 $conn = new mysqli($host, $user, $pass);
 
